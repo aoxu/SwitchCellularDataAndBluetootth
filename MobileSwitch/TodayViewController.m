@@ -32,8 +32,8 @@ extern void CTCellularDataPlanSetIsEnabled(BOOL enabled);
     // Do any additional setup after loading the view from its nib.
     self.preferredContentSize = CGSizeMake(0, kDefaultHeight );
     self.mobileDataSwitch.on = CTCellularDataPlanGetIsEnabled();
-    _btCont = [GLBluetoothController sharedInstance];
-    _blueToothSwitch.on = _btCont.enabled;
+    //_btCont = [GLBluetoothController sharedInstance];
+    //_blueToothSwitch.on = _btCont.enabled;
 }
 
 - (void)didReceiveMemoryWarning {
